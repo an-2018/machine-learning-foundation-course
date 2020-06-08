@@ -14,6 +14,9 @@ $ python -3 -m venv .venv_name
 # activate the virtual environement
 $ .ven_name\scripts\activate
 
+# for windows sometimes requires the following comand if the previous one gives a error
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+
 # install packages with pip install
 $ python -m pip install numpy
 
